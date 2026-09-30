@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kashmir Palace — Restaurant Indien & Pakistanais Belfort | Gastronomie Fine</title>
+  <meta name="description" content="Découvrez le Kashmir Palace à Belfort. Cuisine indienne et pakistanaise authentique : currys crémeux, biryanis safranés, naans au tandoor et grillades. Menus midi dès 11 €.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+  
+  <!-- FontAwesome & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Schema.org Restaurant Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Kashmir Palace",
+    "image": "assets/images/hero_ambiance.png",
+    "telephone": "0384216814",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "59 Rue de Besançon",
+      "addressLocality": "Belfort",
+      "postalCode": "90000",
+      "addressCountry": "FR"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "56"
+    },
+    "priceRange": "€€",
+    "servesCuisine": ["Indian", "Pakistani"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-info">
+        <div class="top-bar-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>59 Rue de Besançon, Belfort</span>
+        </div>
+        <div class="top-bar-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:0384216814" style="color: var(--gold-light); font-weight: 600;">03 84 21 68 14</a>
+        </div>
+      </div>
+      <div class="top-bar-info desktop-only">
+        <div class="rating-badge">
+          <i class="fa-solid fa-star"></i>
+          <span>4,7 / 5 · 56 avis Google</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Sticky Navigation -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <a href="#accueil" class="logo">
+        <div class="logo-crown">
+          <i class="fa-solid fa-crown"></i>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">KASHMIR PALACE</span>
+          <span class="logo-subtitle">RESTAURANT INDIEN & PAKISTANAIS</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+        <li><a href="#lamaison" class="nav-link">La Maison</a></li>
+        <li><a href="#menusmidi" class="nav-link">Menus Midi</a></li>
+        <li><a href="#lacarte" class="nav-link">La Carte</a></li>
+        <li><a href="#galerie" class="nav-link">Galerie & Avis</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#reserver" class="btn btn-primary btn-sm">Réserver</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu Mobile">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="accueil" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">
+        L'âme du <span class="gold-text-glow">Cachemire</span>,<br>servie à votre table.
+      </h1>
+      <p class="hero-description">
+        Currys crémeux, biryanis safranés et naans fondants, préparés avec le cœur. Portions généreuses, accueil chaleureux — comme à la maison, en mieux.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#reserver" class="btn btn-primary">
+          <i class="fa-solid fa-utensils"></i> Réserver une table
+        </a>
+        <a href="#lacarte" class="btn btn-outline">
+          <i class="fa-solid fa-book-open"></i> Découvrir la carte
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <i class="fa-solid fa-star stat-icon"></i>
+          <div>
+            <div class="stat-val">4,7 / 5</div>
+            <div class="stat-lbl">56 avis Google certifiés</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <i class="fa-solid fa-fire-burner stat-icon"></i>
+          <div>
+            <div class="stat-val">Tandoor Traditionnel</div>
+            <div class="stat-lbl">Cuisson au four en terre</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <i class="fa-solid fa-clock stat-icon"></i>
+          <div>
+            <div class="stat-val">Midi dès 11 €</div>
+            <div class="stat-lbl">Formules express & complètes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ticker Ribbon -->
+  <div class="marquee-ribbon">
+    <div class="marquee-content">
+      <div class="marquee-item">Butter Chicken <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Biryani Mixte Pendjab <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Cheese Naan Garlic <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Poulet Tikka Massala <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Grillade Kashmir <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Pistache Kulfi <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Sur place & à emporter <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Menus Midi dès 11 € <span class="marquee-dot"></span></div>
+      <!-- Duplicate for infinite marquee loop -->
+      <div class="marquee-item">Butter Chicken <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Biryani Mixte Pendjab <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Cheese Naan Garlic <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Poulet Tikka Massala <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Grillade Kashmir <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Pistache Kulfi <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Sur place & à emporter <span class="marquee-dot"></span></div>
+      <div class="marquee-item">Menus Midi dès 11 € <span class="marquee-dot"></span></div>
+    </div>
+  </div>
+
+  <!-- La Maison (About Us) -->
+  <section id="lamaison" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Notre Histoire & Savoir-Faire</span>
+        <h2 class="section-title">Trois chapitres, une même passion.</h2>
+        <p class="section-desc">Du four en terre cuite aux saveurs royales, découvrez ce qui fait la réputation unique du Kashmir Palace à Belfort.</p>
+      </div>
+
+      <div class="maison-grid">
+        <!-- Chapter 01 -->
+        <div class="maison-card">
+          <div class="maison-img-wrapper">
+            <img src="assets/images/tandoor_craft.png" alt="Four Tandoor Kashmir Palace">
+          </div>
+          <div class="maison-num">01</div>
+          <h3 class="maison-title">L'Art du Tandoor</h3>
+          <p class="maison-text">
+            Notre four d'argile atteint 400 degrés. C'est là que naissent nos naans boursouflés, nos tikkas fumés et nos kebabs juteux — saisis à la braise, comme au bord des routes du Pendjab.
+          </p>
+        </div>
+
+        <!-- Chapter 02 -->
+        <div class="maison-card">
+          <div class="maison-img-wrapper">
+            <img src="assets/images/spices_craft.png" alt="Épices indiennes et pakistanaises">
+          </div>
+          <div class="maison-num">02</div>
+          <h3 class="maison-title">L'Héritage des Épices</h3>
+          <p class="maison-text">
+            Cardamome, cumin, safran, fenugrec : chaque sauce est montée à la main, chaque biryani parfumé au riz basmati vieilli. Une cuisine de famille, généreuse et sincère, entre Inde et Pakistan.
+          </p>
+        </div>
+
+        <!-- Chapter 03 -->
+        <div class="maison-card">
+          <div class="maison-img-wrapper">
+            <img src="assets/images/hero_ambiance.png" alt="Salle du restaurant Kashmir Palace">
+          </div>
+          <div class="maison-num">03</div>
+          <h3 class="maison-title">L'Hospitalité de Belfort</h3>
+          <p class="maison-text">
+            Ici, on vous accueille avec le sourire — même à dix minutes de la fermeture. Un dessert offert, un conseil du patron, une salle cosy et calme : vous repartirez avec l'envie de revenir.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quote -->
+      <div class="quote-box">
+        <i class="fa-solid fa-quote-left quote-icon"></i>
+        <p class="quote-text">
+          « Chaque assiette qui sort de notre cuisine porte un peu de notre histoire — et beaucoup de notre cœur. »
+        </p>
+        <span class="quote-author">— La famille Kashmir Palace</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menus Midi -->
+  <section id="menusmidi" class="section midi-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Offres Spéciales Déjeuner</span>
+        <h2 class="section-title">Menus Midi · Sur place</h2>
+        <p class="section-desc">Disponibles du lundi au dimanche midi. Des formules complètes préparées à la minute.</p>
+      </div>
+
+      <div class="midi-grid">
+        <!-- Menu Express -->
+        <div class="midi-card">
+          <div>
+            <div class="midi-header">
+              <div>
+                <h3 class="midi-name">Menu Midi Express</h3>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Uniquement le midi · sur place</p>
+              </div>
+              <span class="midi-price">11,00 €</span>
+            </div>
+
+            <div class="midi-course">
+              <div class="course-label">Entrée au choix</div>
+              <div class="course-items">Oignon Bhaji ou Raita</div>
+            </div>
+
+            <div class="midi-course">
+              <div class="course-label">Plat au choix (avec Riz Basmati)</div>
+              <div class="course-items">Poulet Korma ou Palak Paneer</div>
+            </div>
+          </div>
+
+          <a href="#reserver" class="btn btn-outline" style="margin-top: 1.5rem; width: 100%;">
+            Réserver pour le Midi
+          </a>
+        </div>
+
+        <!-- Menu Complet -->
+        <div class="midi-card featured">
+          <span class="midi-badge">Le Plus Populaire</span>
+          <div>
+            <div class="midi-header">
+              <div>
+                <h3 class="midi-name">Menu Complet</h3>
+                <p style="font-size: 0.8rem; color: var(--gold-light);">Le midi · sur place</p>
+              </div>
+              <span class="midi-price">17,50 €</span>
+            </div>
+
+            <div class="midi-course">
+              <div class="course-label">Entrée au choix</div>
+              <div class="course-items">Poulet Tandoori ou Samoussa Poulet</div>
+            </div>
+
+            <div class="midi-course">
+              <div class="course-label">Plat au choix (accompagnement riz basmati)</div>
+              <div class="course-items">Butter Chicken ou Poulet Tikka Massala</div>
+            </div>
+
+            <div class="midi-course">
+              <div class="course-label">Dessert au choix</div>
+              <div class="course-items">Salade de Fruits ou Gulab Jamun</div>
+            </div>
+          </div>
+
+          <a href="#reserver" class="btn btn-primary" style="margin-top: 1.5rem; width: 100%;">
+            Réserver le Menu Complet
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- La Carte Section (Full Interactive Menu) -->
+  <section id="lacarte" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Gastronomie Royale</span>
+        <h2 class="section-title">La vraie carte du palais.</h2>
+        <p class="section-desc">
+          Menu complet à 17,50 € et menu express à 11 € le midi. Tous les plats principaux sont servis sans riz — riz basmati disponible en accompagnement.
+        </p>
+      </div>
+
+      <!-- Controls & Filter Toolbar -->
+      <div class="carte-controls-sticky">
+        <div class="carte-search-bar">
+          <i class="fa-solid fa-magnifying-glass carte-search-icon"></i>
+          <input type="text" id="carteSearch" class="carte-search-input" placeholder="Rechercher un plat, naan, curry (ex: Butter Chicken, Garlic Naan)...">
+        </div>
+
+        <div class="carte-tabs-container">
+          <div class="carte-tabs" id="carteTabs">
+            <button class="tab-btn active" data-category="all">
+              <i class="fa-solid fa-layer-group"></i> <span>Tous (84)</span>
+            </button>
+            <button class="tab-btn" data-category="entrees">
+              <i class="fa-solid fa-bowl-food"></i> <span>Entrées & Beignets (9)</span>
+            </button>
+            <button class="tab-btn" data-category="tandoori">
+              <i class="fa-solid fa-fire"></i> <span>Tandoori & Grillades (11)</span>
+            </button>
+            <button class="tab-btn" data-category="plats">
+              <i class="fa-solid fa-drumstick-bite"></i> <span>Plats & Currys (22)</span>
+            </button>
+            <button class="tab-btn" data-category="mer_legumes">
+              <i class="fa-solid fa-leaf"></i> <span>Mer & Végétarien (18)</span>
+            </button>
+            <button class="tab-btn" data-category="biryani_naans">
+              <i class="fa-solid fa-bread-slice"></i> <span>Biryanis & Naans (17)</span>
+            </button>
+            <button class="tab-btn" data-category="desserts">
+              <i class="fa-solid fa-ice-cream"></i> <span>Desserts (7)</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Separated Menu Categories Container -->
+      <div id="dishesGrid" class="dishes-categories-container">
+        <!-- Rendered dynamically by main.js into separate category blocks -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Galerie -->
+  <section id="galerie" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">En Images</span>
+        <h2 class="section-title">Sous le feu des projecteurs.</h2>
+        <p class="section-desc">Les plats de notre carte, tels qu'ils arrivent à votre table — fumants, parfumés, généreux.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/images/butter_chicken.png" alt="Butter Chicken Kashmir Palace">
+          <div class="gallery-overlay">
+            <span class="gallery-sub">Spécialité Maison</span>
+            <h3 class="gallery-title">Butter Chicken</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/biryani_mixte.png" alt="Biryani Mixte Pendjab">
+          <div class="gallery-overlay">
+            <span class="gallery-sub">Plat Signature</span>
+            <h3 class="gallery-title">Biryani Mixte Pendjab</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/cheese_naan.png" alt="Cheese Naan Garlic">
+          <div class="gallery-overlay">
+            <span class="gallery-sub">Four Tandoor</span>
+            <h3 class="gallery-title">Cheese Naan Garlic</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/mix_grill.png" alt="La Grillade Mixte">
+          <div class="gallery-overlay">
+            <span class="gallery-sub">Tandoori Grill</span>
+            <h3 class="gallery-title">La Grillade Mixte</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/pistache_kulfi.png" alt="Pistache Kulfi Dessert">
+          <div class="gallery-overlay">
+            <span class="gallery-sub">Dessert Indien</span>
+            <h3 class="gallery-title">Pistache Kulfi</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/samoussa_entree.png" alt="Vegetable Samossa">
+          <div class="gallery-overlay">
+            <span class="gallery-sub">Entrée Croquante</span>
+            <h3 class="gallery-title">Vegetable Samossa</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Avis Google Section -->
+  <section id="avis" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Témoignages Clients</span>
+        <h2 class="section-title">Ils nous ont goûtés.</h2>
+        <p class="section-desc">56 avis, un seul verdict : portions généreuses, accueil chaleureux et cuisine faite avec le cœur.</p>
+      </div>
+
+      <div class="avis-hero">
+        <div class="rating-score">
+          <div class="rating-num">4,7</div>
+          <div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.2rem;">Note moyenne · 56 Avis Google Certifiés</div>
+          </div>
+        </div>
+        <a href="https://maps.google.com" target="_blank" class="btn btn-outline btn-sm">
+          <i class="fa-brands fa-google"></i> Déposer un avis Google
+        </a>
+      </div>
+
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="author-info">
+                <div class="author-avatar">OA</div>
+                <div>
+                  <div class="author-name">Owais Ahmed</div>
+                  <div class="review-date">il y a 4 mois</div>
+                </div>
+              </div>
+              <div class="stars" style="font-size: 0.9rem;">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="review-text">
+              « Nous sommes venus dîner en famille pour la deuxième fois, et la nourriture était excellente. Le service très agréable et l'ambiance chaleureuse. Je recommande vivement. »
+            </p>
+          </div>
+          <div class="review-source">
+            <i class="fa-brands fa-google"></i> Avis Google Certifié
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="author-info">
+                <div class="author-avatar">CD</div>
+                <div>
+                  <div class="author-name">Céline Dan</div>
+                  <div class="review-date">il y a 1 mois</div>
+                </div>
+              </div>
+              <div class="stars" style="font-size: 0.9rem;">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="review-text">
+              « Une magnifique découverte ce soir dans ce restaurant. Un accueil chaleureux, le patron nous a très bien conseillés. Nous reviendrons, c'est certain. »
+            </p>
+          </div>
+          <div class="review-source">
+            <i class="fa-brands fa-google"></i> Avis Google Certifié
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="author-info">
+                <div class="author-avatar">N</div>
+                <div>
+                  <div class="author-name">Nyx</div>
+                  <div class="review-date">il y a 3 mois</div>
+                </div>
+              </div>
+              <div class="stars" style="font-size: 0.9rem;">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="review-text">
+              « Repas sans faute : beignets d'aubergine parfaits, poulet à la sauce épinard merveilleusement crémeux, et le cheese naan tout simplement délicieux. »
+            </p>
+          </div>
+          <div class="review-source">
+            <i class="fa-brands fa-google"></i> Avis Google Certifié
+          </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="author-info">
+                <div class="author-avatar">AB</div>
+                <div>
+                  <div class="author-name">Amandine B.</div>
+                  <div class="review-date">il y a 2 mois</div>
+                </div>
+              </div>
+              <div class="stars" style="font-size: 0.9rem;">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="review-text">
+              « Une belle trouvaille ! Très bon, très copieux. Menus du midi à prix très raisonnables. Salle climatisée, service agréable. Je recommande ! »
+            </p>
+          </div>
+          <div class="review-source">
+            <i class="fa-brands fa-google"></i> Avis Google Certifié
+          </div>
+        </div>
+
+        <!-- Review 5 -->
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="author-info">
+                <div class="author-avatar">TC</div>
+                <div>
+                  <div class="author-name">Tenzin Chokey</div>
+                  <div class="review-date">il y a 2 semaines</div>
+                </div>
+              </div>
+              <div class="stars" style="font-size: 0.9rem;">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="review-text">
+              « J'ai testé plusieurs restaurants indiens et pakistanais, mais celui-ci m'a vraiment bluffée. Le butter chicken avec du naan était absolument délicieux. »
+            </p>
+          </div>
+          <div class="review-source">
+            <i class="fa-brands fa-google"></i> Avis Google Certifié
+          </div>
+        </div>
+
+        <!-- Review 6 -->
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="author-info">
+                <div class="author-avatar">JP</div>
+                <div>
+                  <div class="author-name">Jerjohjes Paisam</div>
+                  <div class="review-date">il y a 4 mois</div>
+                </div>
+              </div>
+              <div class="stars" style="font-size: 0.9rem;">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="review-text">
+              « Arrivés 30 minutes avant la fermeture, accueillis avec le sourire et une gentillesse sincère, sans jamais être pressés. Un accueil rare qui mérite d'être salué. »
+            </p>
+          </div>
+          <div class="review-source">
+            <i class="fa-brands fa-google"></i> Avis Google Certifié
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation & Contact Section -->
+  <section id="reserver" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Réservation en Ligne</span>
+        <h2 class="section-title">Votre table vous attend, déjà dressée.</h2>
+        <p class="section-desc">
+          Dîner en famille, déjeuner solo, commande à emporter ou traiteur pour vos événements : laissez-nous un message, nous vous rappelons pour confirmer.
+        </p>
+      </div>
+
+      <div class="booking-grid">
+        <!-- Info Card -->
+        <div class="info-card">
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h3 class="info-title">Adresse</h3>
+              <p class="info-detail">59 Rue de Besançon, 90000 Belfort</p>
+              <span style="font-size: 0.8rem; color: var(--gold-primary);">Parking gratuit juste à côté</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h3 class="info-title">Téléphone</h3>
+              <p class="info-detail">03 84 21 68 14</p>
+              <span style="font-size: 0.8rem; color: var(--text-dim);">Confirmation rapide par téléphone</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h3 class="info-title">Horaires d'ouverture</h3>
+              <p class="info-detail">Déjeuner : 11h30 – 14h30</p>
+              <p class="info-detail">Dîner : 18h30 – 22h30</p>
+              <span style="font-size: 0.8rem; color: var(--gold-primary);">Ouvert 7 jours sur 7</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <div>
+              <h3 class="info-title">Services & Avantages</h3>
+              <p class="info-detail">Sur place · À emporter · Traiteur</p>
+              <p class="info-detail">Groupes jusqu'à 30 personnes</p>
+              <p class="info-detail">Cartes bancaires & Paiement NFC acceptés</p>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-box">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.214872109287!2d6.8530!3d47.6385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47923b30e4000001%3A0x1!2s59%20Rue%20de%20Besan%C3%A7on%2C%2090000%20Belfort!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr" 
+              allowfullscreen="" 
+              loading="lazy" 
+              title="Carte Kashmir Palace Belfort">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="booking-form-box">
+          <h3 class="font-royal" style="font-size: 1.5rem; color: #FFF; margin-bottom: 1.5rem; text-align: center;">Réserver une Table</h3>
+          <form id="bookingForm">
+            <div class="form-group">
+              <label class="form-label" for="name">Nom complet *</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="phone">Téléphone *</label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="06 12 34 56 78" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Email (optionnel)</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="vous@exemple.fr">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="date">Date *</label>
+                <input type="date" id="date" name="date" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="time">Heure *</label>
+                <select id="time" name="time" class="form-control" required>
+                  <option value="12h00">12h00</option>
+                  <option value="12h30">12h30</option>
+                  <option value="13h00">13h00</option>
+                  <option value="13h30">13h30</option>
+                  <option value="19h00">19h00</option>
+                  <option value="19h30" selected>19h30</option>
+                  <option value="20h00">20h00</option>
+                  <option value="20h30">20h30</option>
+                  <option value="21h00">21h00</option>
+                  <option value="21h30">21h30</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="guests">Convives *</label>
+                <select id="guests" name="guests" class="form-control" required>
+                  <option value="1 personne">1 personne</option>
+                  <option value="2 personnes" selected>2 personnes</option>
+                  <option value="3 personnes">3 personnes</option>
+                  <option value="4 personnes">4 personnes</option>
+                  <option value="5 personnes">5 personnes</option>
+                  <option value="6+ personnes">6+ personnes (Groupe)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="service">Service *</label>
+                <select id="service" name="service" class="form-control" required>
+                  <option value="Sur place">Sur place</option>
+                  <option value="À emporter">À emporter</option>
+                  <option value="Traiteur">Traiteur Événement</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Message (allergies, occasion spéciale…)</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Dites-nous tout..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1.1rem;">
+              <i class="fa-solid fa-paper-plane"></i> Envoyer ma demande
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#accueil" class="logo">
+            <div class="logo-crown">
+              <i class="fa-solid fa-crown"></i>
+            </div>
+            <div class="logo-text-group">
+              <span class="logo-title">KASHMIR PALACE</span>
+              <span class="logo-subtitle">BELFORT</span>
+            </div>
+          </a>
+          <p>
+            Cuisine indienne & pakistanaise authentique au cœur de Belfort. Plats faits maison, portions généreuses sur place, à emporter et en traiteur.
+          </p>
+          <div style="margin-top: 1rem; color: var(--gold-primary); font-size: 0.9rem;">
+            <i class="fa-solid fa-star"></i> 4,7 / 5 · 56 avis Google Certifiés
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#lamaison">La Maison</a></li>
+            <li><a href="#menusmidi">Menus Midi</a></li>
+            <li><a href="#lacarte">La Carte</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#avis">Avis Clients</a></li>
+            <li><a href="#reserver">Réserver</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#reserver">Sur Place</a></li>
+            <li><a href="#reserver">À Emporter</a></li>
+            <li><a href="#reserver">Traiteur Événements</a></li>
+            <li><a href="#menusmidi">Menus Express Midi</a></li>
+            <li><a href="#lacarte">Option Végétarienne</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact & Accès</h4>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem;">
+            <i class="fa-solid fa-location-dot" style="color: var(--gold-primary);"></i> 59 Rue de Besançon, 90000 Belfort
+          </p>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem;">
+            <i class="fa-solid fa-phone" style="color: var(--gold-primary);"></i> 03 84 21 68 14
+          </p>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">
+            <i class="fa-solid fa-clock" style="color: var(--gold-primary);"></i> 7j/7 · 11h30–14h30 · 18h30–22h30
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Kashmir Palace — Fait avec soin à Belfort · Espace Patron</div>
+        <div>Parking gratuit · Paiement NFC & Cartes acceptées</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Container -->
+  <div class="modal" id="bookingModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalDetails"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
